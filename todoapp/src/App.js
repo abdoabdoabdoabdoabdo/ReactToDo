@@ -7,7 +7,11 @@ class App extends React.Component{
   }
   render(){
     return (
-      <div className="App">hi</div>
+      <div className="App">
+        <h1 className="center blue-text"></h1>
+        <ToDo todos={this.state.todolist}/>
+      </div>
+
     );
   }
 }
