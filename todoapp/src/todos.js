@@ -1,9 +1,6 @@
-import React from 'react'
-class ToDo extends React.Component{
-    render(){
-        return(
-            <div className="todos collection"></div>
-        )
-        }
+import React from "react"
+const ToDo=() => {
+    return(
+        <div className="todos collection"></div>
+    )
 }
-export default ToDo;
